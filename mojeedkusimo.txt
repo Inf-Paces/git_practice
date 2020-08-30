@@ -1,0 +1,1 @@
+This is a github exercise solution of number 3 for pull request
