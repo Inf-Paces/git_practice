@@ -51,7 +51,7 @@ footer.className += "main";
 let removeMain = document.querySelector(".footer")
 removeMain.classList.remove("main")
 
-// 8 - Create a new li element.
+// 8 - Create a new li element
 let newLi = document.createElement("li");
 
 // 9 - Give the li the text "four".
@@ -61,7 +61,7 @@ newLi.innerText = "four"
 let ulElement = document.querySelector("ul")
 ulElement.appendChild(newLi)
 
-// 11 - Loop over all of the lis inside the ol tag and give them a background color of "green".
+// 11 -Loop over all of the lis inside the ol tag and give them a background color of "green".
 insideOl = document.querySelector("ol li")
 for(let i = 0; i < insideOl.length; i++) {
     insideOl[i].style.backgroundColor = "green"
